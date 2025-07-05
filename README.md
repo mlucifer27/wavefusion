@@ -1,10 +1,13 @@
-# Wave Engine
+# Wavefusion
+
 A panda3d powered wave-motion particle simulator in python.<br>
 
 ### Installing
+
 The only required library is panda3d (all other libs used are included by default in the python installer package) <br>
-In order to install it, type ```pip install panda``` in the windows command prompt, or install the SDK from [the panda3d webpage](panda3d.org)
+In order to install it, type `pip install panda` in the windows command prompt, or install the SDK from [the panda3d webpage](panda3d.org)
 Customizable physical variables inside the code:<br>
+
 ```python
 RIGIDCONST = 4
 TIMESCALE = 0.01
@@ -14,7 +17,7 @@ GLOBALSCALE = 3
 BLOCKINTERVAL = 0.06
 GLOBALMASS = 0.1 # kg USI
 
-HOLDING_FRAME = True # this defines whether there is a stable frame holding the moving surface or not. Try turning it off to see what happens 
+HOLDING_FRAME = True # this defines whether there is a stable frame holding the moving surface or not. Try turning it off to see what happens
 
 
 TOGGLE_LIVE_DISPLAY = False # when switched off, the calculation process isn't rendered in 3d, and only returns a list of positions, which are transfered to the panda3d engine later, without doing the maths
